@@ -22,6 +22,7 @@ agent any
                 // Push the Docker image to the registry
                 sh 'docker tag test_image:1.0 mayurgavli/mayur_npn:1.6'
                 sh 'docker push mayurgavli/mayur_npn:1.6'
+                // Docker image pushed
             }
         }
     }
